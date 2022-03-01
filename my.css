@@ -1,0 +1,40 @@
+body {
+  background:linear-gradient(0deg, rgba(182, 172, 241, 0.493), rgba(5, 60, 82, 0.8)), url(/stretched-1920-1080-1172956.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  backface-visibility:visible;
+  background-size: 100% 100%;
+}
+
+#products {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+img {
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.card {
+  width: calc((100% / 4) - 15px);
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
+.card-img-top.hover{
+  background-image: "@/";
+  transform: scale(1.5) ;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.Genre {
+  color: grey;
+  font-size: 18px;
+}
